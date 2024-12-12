@@ -18,7 +18,6 @@ module.exports = {
     "primary-font":["Lato", "sans-serif"],
     "secondary-font":["Public Sans", "serif"]
     }
-
     },
   },
   plugins: [],
