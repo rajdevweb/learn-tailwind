@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%; /* Container width */
+}
+
+.marquee span {
+  display: inline-block;
+  animation: scrollHorizontally 10s linear infinite;
+}
+
+@keyframes scrollHorizontally {
+  0% {
+    transform: translateX(-330px);
+  }
+  100% {
+    transform: translateX(1500px);
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div class="marquee">
+        <span>This text will scroll endlessly across the screen →</span>
+    </div>
+
+    <marquee behavior="scroll" direction="right" scrollment="10" > 
+        hi there
+    </marquee>
+</body>
+</html>
