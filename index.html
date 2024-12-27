@@ -23,7 +23,8 @@
     </div>
   </header>
   <!-- navbar -->
-  <nav class="p-2 flex justify-between">
+   <div class=" sticky top-0 bg-white">
+  <nav class="p-2 flex justify-between ">
     <a href="#" class="flex gap-2 items-center flex-1">
       <?xml version="1.0" encoding="UTF-8"?>
       <svg width="1.70rem" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +83,7 @@
 
     <!-- mobile toggle button -->
     <div id="hidden-nav" class="hidden fixed z-10 bg-white lg:hidden p-2 inset-0">
-      <div id="nav-bar" class="flex justify-between">
+      <div id="nav-bar" class="flex justify-between bg-white">
         <a href="#" class="flex gap-2 items-center">
           <?xml version="1.0" encoding="UTF-8"?>
           <svg width="1.70rem" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
@@ -147,6 +148,7 @@
       </button>
     </div>
   </nav>
+    </div>
 
   <!-- main section -->
   <main>
@@ -356,72 +358,86 @@
       </div>
 
     <!-- bento grid -->
-     <div id="bento-grid" class=" max-w-7xl mx-auto container border">
-      <h2 class="text-5xl sm:font-semibold mb-14">To Desktop Handles the details</h2>
-      <div id="grid-container" class="flex flex-col gap-6 md:grid md:grid-cols-3" style="grid-auto-rows:96px;">
-         <div class="row-start-1 row-end-3 rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 group ">
-          <div class="bg-white rounded-2xl w-full h-full p-6 flex flex-col items-center group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50 ">
-            <h3>Native Notifications</h3>
-             <img src="asset/ORANGE.png" alt="">
-            </div>
-         </div>
-
-        <div
-          class=" row-start-1 row-end-4  rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 group">
-          <div
-            class="bg-white rounded-2xl w-full h-full p-6 flex flex-col items-center group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50">
-            <p class="font-light text-gray-600">Soufflé donut gingerbread chupa chups gummies. Icing marshmallow lemon drops dessert gingerbread pudding cake. Dessert
-            lemon drops powder biscuit marzipan</p>
-            <h3>Native Notifications</h3>
-            <img src="asset/ORANGE.png" alt="">
+    <div id="bento-grid" class="container border">
+      <h2 class="text-5xl sm:font-semibold mb-14 max-w-2xl leading-normal">To Desktop handles the details</h2>
+      <div id="grid-container" class="flex flex-col gap-6 lg:grid lg:grid-cols-3" style="grid-auto-rows: 96px;">
+        <div class="row-start-1 row-end-3 group rounded-2xl gradient-hover-outer">
+          <div class="gradient-hover-inner rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center ">
+            <h3 class="text-2xl">Native Notifications</h3>
+            <img src="./asset/PURPLE.png" alt="">
           </div>
         </div>
+        <div class="row-start-1 row-end-4 group rounded-2xl gradient-hover-outer">
+          <div class="rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center gradient-hover-inner">
+            <h3 class="text-2xl">Native Notifications</h3>
+            <p class="text-lg text-center font-light">We’ll ensure the underlying browser is up to date and deliver
+              performance improvements, security patches, & additional features.</p>
+                      <img src="./asset/GREEN.png" alt="">
 
-        <div
-          class=" row-start-1 row-end-3 rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 group">
-          <div
-            class="bg-white rounded-2xl w-full h-full p-6 flex flex-col items-center group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50">
-            <h3>Native Notifications</h3>
-            <img src="asset/ORANGE.png" alt="">
           </div>
         </div>
-
-        <div class=" row-start-3 row-end-8 rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 group">
+        <div class="row-start-1 row-end-3 group rounded-2xl gradient-hover-outer">
           <div
-            class="bg-white rounded-2xl w-full h-full p-6 flex flex-col items-center group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50">
-            <p class="font-light text-gray-600">Soufflé donut gingerbread chupa chups gummies. Icing marshmallow lemon drops dessert
-              gingerbread pudding cake. Dessert
-              lemon drops powder biscuit marzipan</p>
-            <h3>Native Notifications</h3>
-            <img src="asset/ORANGE.png" alt="">
+            class="gradient-hover-inner rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center gradient-hover-inner">
+            <h3 class="text-2xl">Native Notifications</h3>
+                        <img src="./asset/ORANGE.png" alt="">
+
           </div>
         </div>
+        <div class="row-start-3 row-end-6 group rounded-2xl gradient-hover-outer">
+          <div class="rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center gradient-hover-inner">
+            <h3 class="text-2xl">Native Notifications</h3>
+            <p class="text-lg text-center font-light">We’ll ensure the underlying browser is up to date and deliver
+              performance improvements, security patches, & additional features.</p>
+                    <img src="./asset/ASSAS.png" alt="">
 
-        <div
-          class=" rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 group">
-          <div
-            class="bg-white rounded-2xl w-full h-full p-6 flex flex-col items-center group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50">
-            <h3>Native Notifications</h3>
-            <img src="asset/ORANGE.png" alt="">
           </div>
         </div>
+        <div class="row-start-4 row-end-6 group rounded-2xl gradient-hover-outer">
+          <div class="rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center gradient-hover-inner">
+            <h3 class="text-2xl">Native Notifications</h3>
+                    <img src="./asset/PURPLE.png" alt="">
 
-        <div
-          class=" rounded-2xl p-[1px] bg-slate-100 hover:bg-gradient-to-br hover:from-red-200 hover:via-purple-200 hover:to-yellow-200 group">
-          <div
-            class="bg-white rounded-2xl w-full h-full p-6 flex flex-col items-center group-hover:bg-gradient-to-br group-hover:from-red-50 group-hover:via-purple-50 group-hover:to-yellow-50">
-            <p class="font-light text-gray-600">Soufflé donut gingerbread chupa chups gummies. Icing marshmallow lemon drops dessert
-              gingerbread pudding cake. Dessert
-              lemon drops powder biscuit marzipan</p>
-            <h3>Native Notifications</h3>
-            <img src="asset/ORANGE.png" alt="">
           </div>
         </div>
+        <div class="row-start-3 row-end-6 group rounded-2xl gradient-hover-outer">
+          <div class="rounded-2xl w-full h-full p-6 flex flex-col gap-6 items-center gradient-hover-inner">
+            <h3 class="text-2xl">Native Notifications</h3>
+            <p class="text-lg text-center font-light">We’ll ensure the underlying browser is up to date and deliver
+              performance improvements, security patches, & additional features.</p>
+              <img src="./asset/GREEN.png" alt="">
 
-      
+          </div>
+        </div>
+    
       </div>
+    </div>
+
+
+    <!-- Companies feature section -->
+     <div id="feature-line" class="container">
+       <div class="border rounded-lg flex justify-center p-4 overflow-hidden">
+         <div id="line4" class="flex gap-5 p-6">
+          <h3 class="whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+          <span>•</span>
+
+          <h3 class="whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+          <span>•</span>
+
+          <h3 class="whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+          <span>•</span>
+
+          <h3 class="whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+          <span>•</span>
+
+          <h3 class="whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+          <span>•</span>
+
+          <h3 class="whitespace-nowrap my-0 mx-2 text-2xl font-semibold">Download Analytics</h3>
+          <span>•</span>
+         </div>
+       </div>
      </div>
-  </main>
   <div class="h-[1000px]"></div>
 
   <script src="script.js"></script>
